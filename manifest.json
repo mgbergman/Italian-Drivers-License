@@ -1,0 +1,12 @@
+{
+  "name": "Patente di Guida \u2014 Esame Simulato",
+  "short_name": "Patente",
+  "description": "Italian driving licence practice exam",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#333330",
+  "theme_color": "#009246",
+  "icons": [],
+  "scope": "/"
+}
