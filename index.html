@@ -90,6 +90,7 @@
   .dw-legend { display:flex; flex-wrap:wrap; gap:10px; font-size:11px; color:var(--text2); margin-bottom:10px; }
   .dw-legend span { display:inline-flex; align-items:center; gap:4px; }
   .dw-legend i { width:9px; height:9px; border-radius:2px; display:inline-block; }
+  .dw-gloss { border-bottom: 1.5px dotted var(--text3); cursor: help; }
 
   /* ── Smart hint (guide tip) ── */
   .smart-hint { border-radius: var(--r); padding: 10px 13px; margin-bottom: 10px; font-size: 13px; line-height: 1.55; display: none; border: 0.5px solid; }
@@ -700,6 +701,122 @@ const DANGER_PATTERNS = [
   { re: /è necessario/gi,       cls: 'dw-safe',   title: 'VERO 60% — requirements usually correctly stated' },
 ];
 
+// ── Mini glossary ────────────────────────────────────────────────────────
+// Common driving-test vocabulary → quick English hover translation.
+// Runs AFTER danger-word matching, so words already highlighted as traps
+// are skipped automatically (they're replaced by placeholder tokens by then).
+const GLOSSARY = [
+  ['salvo diversa segnalazione','unless otherwise signposted'],
+  ['salvo diversa indicazione','unless otherwise indicated'],
+  ['centro abitato','residential/built-up area'],
+  ['centri abitati','residential/built-up areas'],
+  ['strada extraurbana principale','main extra-urban road'],
+  ['strada extraurbana secondaria','secondary extra-urban road'],
+  ['passaggio a livello','level crossing'],
+  ['passaggi a livello','level crossings'],
+  ['attraversamento pedonale','pedestrian crossing'],
+  ['attraversamenti pedonali','pedestrian crossings'],
+  ['strisce pedonali','zebra crossing'],
+  ['distanza di sicurezza','safety distance'],
+  ['cintura di sicurezza','seatbelt'],
+  ['cinture di sicurezza','seatbelts'],
+  ['corsia di emergenza','emergency lane'],
+  ['libretto di circolazione','vehicle registration document'],
+  ['carta di circolazione','registration card'],
+  ['divieto di sosta','no parking'],
+  ['divieto di fermata','no stopping'],
+  ['senso unico','one-way street'],
+  ['doppio senso','two-way traffic'],
+  ['obbligo di fermata','mandatory stop'],
+  ['diritto di precedenza','right of way'],
+  ['dare la precedenza','to yield / give way'],
+  ['segnale raffigurato','sign shown (in the image)'],
+  ['segnale in figura','sign shown (in the image)'],
+  ['tasso alcolemico','blood alcohol level'],
+  ['alta visibilità','high-visibility (vest)'],
+  ['triangolo di emergenza','warning triangle'],
+  ['stato di necessità','state of necessity (emergency)'],
+  ['sosta','parking'],
+  ['fermata','stopping'],
+  ['arresto','halt / stop'],
+  ['partenza','departure / setting off'],
+  ['precedenza','right of way'],
+  ['incrocio','intersection'],
+  ['rotatoria','roundabout'],
+  ['rotonda','roundabout'],
+  ['sorpasso','overtaking'],
+  ['sorpassare','to overtake'],
+  ['carreggiata','roadway/carriageway'],
+  ['corsia','lane'],
+  ['marciapiede','sidewalk'],
+  ['semaforo','traffic light'],
+  ['segnale','sign/signal'],
+  ['segnaletica','signage/road markings'],
+  ['cartello','sign/board'],
+  ['velocità','speed'],
+  ['limite','limit'],
+  ['autostrada','motorway'],
+  ['patente','driving license'],
+  ['conducente','driver'],
+  ['veicolo','vehicle'],
+  ['pedone','pedestrian'],
+  ['pedoni','pedestrians'],
+  ['ciclista','cyclist'],
+  ['motociclo','motorcycle'],
+  ['motociclista','motorcyclist'],
+  ['casco','helmet'],
+  ['airbag','airbag'],
+  ['freno','brake'],
+  ['frenata','braking'],
+  ['sterzo','steering'],
+  ['retromarcia','reverse gear'],
+  ['circolazione','circulation/traffic'],
+  ['traffico','traffic'],
+  ['pericolo','danger'],
+  ['intralcio','obstruction'],
+  ['ostacolo','obstacle'],
+  ['incidente','accident'],
+  ['sanzione','penalty/fine'],
+  ['multa','fine'],
+  ['infrazione','infraction'],
+  ['assicurazione','insurance'],
+  ['revisione','roadworthiness inspection'],
+  ['targa','license plate'],
+  ['collaudo','homologation/type test'],
+  ['abbagliante','high beam'],
+  ['abbaglianti','high beams'],
+  ['anabbagliante','low beam'],
+  ['anabbaglianti','low beams'],
+  ['fari','headlights'],
+  ['frecce','turn signals'],
+  ['clacson','horn'],
+  ['tergicristallo','windshield wiper'],
+  ['pneumatici','tires'],
+  ['gomme','tires'],
+  ['alcolemico','blood-alcohol related'],
+  ['stupefacenti','drugs/narcotics'],
+  ['sonnolenza','drowsiness'],
+  ['affaticamento','fatigue'],
+  ['colonna','line/convoy of vehicles'],
+  ['galleria','tunnel'],
+  ['ponte','bridge'],
+  ['dosso','speed bump'],
+  ['curva','curve/bend'],
+  ['pendenza','slope/gradient'],
+  ['banchina','road shoulder/verge'],
+  ['cunetta','ditch/gutter'],
+  ['semirimorchio','semi-trailer'],
+  ['rimorchio','trailer'],
+  ['autocarro','truck'],
+  ['autobus','bus'],
+  ['ciclomotore','moped'],
+  ['quadriciclo','quadricycle'],
+  ['neopatentato','newly licensed driver'],
+  ['neopatentati','newly licensed drivers'],
+  ['minorenne','minor (under 18)'],
+  ['maggiorenne','adult (18+)'],
+];
+
 function escapeHtmlDw(str) {
   return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
@@ -715,6 +832,17 @@ function highlightDangerWords(text) {
     working = working.replace(r, (match) => {
       const idx = tokens.length;
       tokens.push({match, cls, title});
+      return '%%DW'+idx+'%%';
+    });
+  });
+  // Glossary pass — runs on the same working text, so placeholders from the
+  // danger-word pass above are already opaque to these regexes (no overlap).
+  const glossOrdered = [...GLOSSARY].sort((a,b) => b[0].length - a[0].length);
+  glossOrdered.forEach(([phrase, translation]) => {
+    const r = new RegExp('(?<![\\wÀ-ÿ])(' + phrase.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')(?![\\wÀ-ÿ])', 'gi');
+    working = working.replace(r, (match) => {
+      const idx = tokens.length;
+      tokens.push({match, cls: 'dw-gloss', title: translation});
       return '%%DW'+idx+'%%';
     });
   });
