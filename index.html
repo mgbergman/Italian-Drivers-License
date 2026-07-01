@@ -83,6 +83,14 @@
   .q-rec { font-size: 11px; color: var(--text2); background: var(--bg2); padding: 2px 8px; border-radius: 10px; margin-left: auto; display: none; }
   .q-text { font-size: 17px; font-family: 'Playfair Display', serif; color: var(--text); line-height: 1.65; }
 
+  /* ── Danger word highlighter (inline in q-text) ── */
+  .dw { padding: 0 2px; border-radius: 3px; cursor: help; border-bottom: 2px solid; }
+  .dw-danger { background: rgba(206,43,55,0.14); border-color: var(--red); }
+  .dw-safe   { background: rgba(0,146,70,0.14); border-color: var(--green); }
+  .dw-legend { display:flex; flex-wrap:wrap; gap:10px; font-size:11px; color:var(--text2); margin-bottom:10px; }
+  .dw-legend span { display:inline-flex; align-items:center; gap:4px; }
+  .dw-legend i { width:9px; height:9px; border-radius:2px; display:inline-block; }
+
   /* ── Smart hint (guide tip) ── */
   .smart-hint { border-radius: var(--r); padding: 10px 13px; margin-bottom: 10px; font-size: 13px; line-height: 1.55; display: none; border: 0.5px solid; }
   .smart-hint.show { display: block; }
@@ -320,6 +328,10 @@
             <span class="badge new" id="q-badge">Nuova</span>
             <span class="q-num" id="q-num">1 / 30</span>
             <span class="q-rec" id="q-rec"></span>
+          </div>
+          <div class="dw-legend">
+            <span><i style="background:var(--red)"></i>Likely FALSO</span>
+            <span><i style="background:var(--green)"></i>Likely VERO</span>
           </div>
           <div class="q-text" id="q-text">Caricamento…</div>
           <div style="font-size:11px;color:var(--text3);margin-top:8px" id="q-id"></div>
@@ -657,6 +669,58 @@ function getSmartHint(q) {
   return null;
 }
 
+// ── Inline danger word highlighter ──────────────────────────────────────
+// Reuses the same statistically-proven trap patterns as HINTS above, but
+// highlights the exact word/phrase inline within the question text.
+const DANGER_PATTERNS = [
+  { re: /non è obbligatorio/gi, cls: 'dw-danger', title: 'FALSO 100% — this is actually required' },
+  { re: /esclusivamente/gi,     cls: 'dw-danger', title: 'FALSO 93% — too absolute, rule is broader' },
+  { re: /\bmai\b/gi,            cls: 'dw-danger', title: 'FALSO 91% — "never" is usually too absolute' },
+  { re: /in ogni caso/gi,       cls: 'dw-danger', title: 'FALSO 90% — "in every case" is too sweeping' },
+  { re: /non occorre/gi,        cls: 'dw-danger', title: 'FALSO 82% — this is actually needed' },
+  { re: /solo se/gi,            cls: 'dw-danger', title: 'FALSO 77% — condition usually wrong/too narrow' },
+  { re: /\bsolo\b|\bsoltanto\b/gi, cls: 'dw-danger', title: 'FALSO 77% — rule applies more broadly' },
+  { re: /\bpurché\b/gi,         cls: 'dw-danger', title: 'FALSO 72% — condition is usually incorrect' },
+  { re: /è obbligatorio/gi,     cls: 'dw-danger', title: 'FALSO 70% — check what it actually obliges' },
+  { re: /qualsiasi/gi,          cls: 'dw-danger', title: 'FALSO 68% — too broad a claim' },
+  { re: /\bsempre\b/gi,         cls: 'dw-danger', title: 'FALSO 64% — "always" is usually too absolute' },
+  { re: /100 m/gi,              cls: 'dw-danger', title: 'FALSO 64% — 100m only applies to motorway triangles' },
+  { re: /\bsalvo\b/gi,          cls: 'dw-safe',   title: 'VERO 72% — exceptions tend to be correctly stated' },
+  { re: /110 km/gi,             cls: 'dw-safe',   title: 'VERO 71% — usually correctly stated' },
+  { re: /non è consentito/gi,   cls: 'dw-safe',   title: 'VERO 67% — prohibitions usually correctly described' },
+  { re: /autorizza/gi,          cls: 'dw-safe',   title: 'VERO 65% — usually correctly stated' },
+  { re: /90 km/gi,              cls: 'dw-safe',   title: 'VERO 65% — usually correctly stated' },
+  { re: /si può/gi,             cls: 'dw-safe',   title: 'VERO 61% — usually correctly describes real permissions' },
+  { re: /è necessario/gi,       cls: 'dw-safe',   title: 'VERO 60% — requirements usually correctly stated' },
+];
+
+function escapeHtmlDw(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function highlightDangerWords(text) {
+  if (!text) return '';
+  // Longest patterns first so multi-word phrases win over their substrings
+  const ordered = [...DANGER_PATTERNS].sort((a,b) => b.re.source.length - a.re.source.length);
+  const tokens = [];
+  let working = text;
+  ordered.forEach(({re, cls, title}) => {
+    const r = new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags+'g');
+    working = working.replace(r, (match) => {
+      const idx = tokens.length;
+      tokens.push({match, cls, title});
+      return '%%DW'+idx+'%%';
+    });
+  });
+  let html = escapeHtmlDw(working);
+  tokens.forEach((t, i) => {
+    const span = '<span class="dw '+t.cls+'" title="'+escapeHtmlDw(t.title)+'">'+escapeHtmlDw(t.match)+'</span>';
+    html = html.replace('%%DW'+i+'%%', span);
+  });
+  return html;
+}
+
+
 // ── Panel switching ───────────────────────────────────────────────────────
 function switchPanel(name) {
   ['exam','guide','stats'].forEach(p => {
@@ -986,7 +1050,7 @@ function loadQ() {
   }
 
   // Text
-  document.getElementById('q-text').textContent = q.it;
+  document.getElementById('q-text').innerHTML = highlightDangerWords(q.it);
   document.getElementById('q-id').textContent = '#' + q.id;
   document.getElementById('q-num').textContent = (sess.idx+1)+' / '+sess.total;
 
