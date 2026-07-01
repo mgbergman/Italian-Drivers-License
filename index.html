@@ -328,6 +328,12 @@
             <span class="badge new" id="q-badge">Nuova</span>
             <span class="q-num" id="q-num">1 / 30</span>
             <span class="q-rec" id="q-rec"></span>
+            <span style="margin-left:auto;display:flex;gap:6px;align-items:center">
+              <input type="text" id="jump-input" placeholder="# question" inputmode="numeric"
+                style="width:90px;font-size:12px;padding:4px 8px;border:0.5px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text)"
+                onkeydown="if(event.key==='Enter')jumpToQuestion()">
+              <button class="icon-btn" onclick="jumpToQuestion()">Go</button>
+            </span>
           </div>
           <div class="dw-legend">
             <span><i style="background:var(--red)"></i>Likely FALSO</span>
@@ -1034,6 +1040,32 @@ function startSession() { renderStreak();
 }
 
 // ── Load question ─────────────────────────────────────────────────────────
+// ── Jump to a specific question number ─────────────────────────────────
+function jumpToQuestion() {
+  const input = document.getElementById('jump-input');
+  const raw = (input.value || '').trim();
+  if (!raw) return;
+  const id = parseInt(raw, 10);
+  if (isNaN(id)) { input.style.borderColor = 'var(--red)'; return; }
+
+  const q = ALL.find(x => x.id === id);
+  if (!q) { input.style.borderColor = 'var(--red)'; input.placeholder = 'Not found'; return; }
+
+  input.style.borderColor = '';
+  input.value = '';
+
+  if (!sess.queue || !sess.queue.length) {
+    // No active session yet — just start one and splice this question in front
+    sess = { queue: buildQueue(), idx: 0, correct: 0, wrong: 0, done: false };
+  }
+  // Insert the requested question right at the current position so it loads next,
+  // without discarding anything already in the queue.
+  sess.queue.splice(sess.idx, 0, q);
+  sess.total = sess.queue.length;
+  document.getElementById('sc-d').textContent = countDue();
+  loadQ();
+}
+
 function loadQ() {
   const q = sess.queue[sess.idx];
   if (!q) { showResults(); return; }
