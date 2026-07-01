@@ -5160,7 +5160,8 @@
     "en": "The figure represents a danger signal",
     "ans": true,
     "hint": "The figure represents a danger signal",
-    "exp": "The figure represents a danger signal"
+    "exp": "The figure represents a danger signal",
+    "img": 18950
   },
   {
     "id": 18951,
@@ -5222,7 +5223,8 @@
     "en": "The figure represents a mandatory sign",
     "ans": false,
     "hint": "The figure represents a mandatory sign",
-    "exp": "The figure represents a mandatory sign"
+    "exp": "The figure represents a mandatory sign",
+    "img": 18957
   },
   {
     "id": 18958,
@@ -5239,7 +5241,8 @@
     "en": "The figure represents a no-turn sign on the left.",
     "ans": false,
     "hint": "The figure represents a no-turn sign on the left.",
-    "exp": "The figure represents a no-turn sign on the left."
+    "exp": "The figure represents a no-turn sign on the left.",
+    "img": 18959
   },
   {
     "id": 18960,
@@ -5274,7 +5277,8 @@
     "en": "The figure represents a prescription signal",
     "ans": false,
     "hint": "The figure represents a prescription signal",
-    "exp": "The figure represents a prescription signal"
+    "exp": "The figure represents a prescription signal",
+    "img": 18963
   },
   {
     "id": 18964,
@@ -5435,7 +5439,8 @@
     "en": "The figure represents a danger signal",
     "ans": true,
     "hint": "The figure represents a danger signal",
-    "exp": "The figure represents a danger signal"
+    "exp": "The figure represents a danger signal",
+    "img": 18981
   },
   {
     "id": 18982,
@@ -5659,7 +5664,8 @@
     "en": "The figure represents a danger signal",
     "ans": true,
     "hint": "The figure represents a danger signal",
-    "exp": "The figure represents a danger signal"
+    "exp": "The figure represents a danger signal",
+    "img": 19006
   },
   {
     "id": 19007,
@@ -5919,7 +5925,8 @@
     "en": "The figure represents a danger signal",
     "ans": true,
     "hint": "The figure represents a danger signal",
-    "exp": "The figure represents a danger signal"
+    "exp": "The figure represents a danger signal",
+    "img": 19035
   },
   {
     "id": 19036,
@@ -6116,7 +6123,8 @@
     "en": "The figure represents a danger signal",
     "ans": true,
     "hint": "The figure represents a danger signal",
-    "exp": "The figure represents a danger signal"
+    "exp": "The figure represents a danger signal",
+    "img": 19057
   },
   {
     "id": 19058,
@@ -6205,7 +6213,8 @@
     "en": "The figure represents a priority signal",
     "ans": false,
     "hint": "The figure represents a priority signal",
-    "exp": "The figure represents a priority signal"
+    "exp": "The figure represents a priority signal",
+    "img": 19067
   },
   {
     "id": 19068,
@@ -6339,7 +6348,8 @@
     "en": "The figure represents a danger signal",
     "ans": true,
     "hint": "The figure represents a danger signal",
-    "exp": "The figure represents a danger signal"
+    "exp": "The figure represents a danger signal",
+    "img": 19082
   },
   {
     "id": 19083,
@@ -6542,7 +6552,8 @@
     "en": "The panels shown are placed before any type of level crossing",
     "ans": true,
     "hint": "The panels shown are placed before any type of level crossing",
-    "exp": "The panels shown are placed before any type of level crossing"
+    "exp": "The panels shown are placed before any type of level crossing",
+    "img": 19105
   },
   {
     "id": 19106,
@@ -6550,7 +6561,8 @@
     "en": "The panels shown are usually placed approximately 150, 100 and 50 metres from the railway crossing.",
     "ans": true,
     "hint": "The panels shown are usually placed approximately 150, 100 and 50 metres from the railway crossing.",
-    "exp": "The panels shown are usually placed approximately 150, 100 and 50 metres from the railway crossing."
+    "exp": "The panels shown are usually placed approximately 150, 100 and 50 metres from the railway crossing.",
+    "img": 19106
   },
   {
     "id": 19107,
@@ -6598,7 +6610,8 @@
     "en": "The panels shown are prescription signs",
     "ans": false,
     "hint": "The panels shown are prescription signs",
-    "exp": "The panels shown are prescription signs"
+    "exp": "The panels shown are prescription signs",
+    "img": 19112
   },
   {
     "id": 19113,
@@ -6606,7 +6619,8 @@
     "en": "The panels shown indicate work in progress",
     "ans": false,
     "hint": "The panels shown indicate work in progress",
-    "exp": "The panels shown indicate work in progress"
+    "exp": "The panels shown indicate work in progress",
+    "img": 19113
   },
   {
     "id": 19114,
@@ -6622,7 +6636,8 @@
     "en": "The panels shown, if with two bars, indicate a railway crossing with only two tracks",
     "ans": false,
     "hint": "The panels shown, if with two bars, indicate a railway crossing with only two tracks",
-    "exp": "The panels shown, if with two bars, indicate a railway crossing with only two tracks"
+    "exp": "The panels shown, if with two bars, indicate a railway crossing with only two tracks",
+    "img": 19115
   },
   {
     "id": 19116,
@@ -23547,7 +23562,8 @@
     "en": "The flashing yellow circular light (type A in the figure) is a generic danger signal",
     "ans": true,
     "hint": "The flashing yellow circular light (type A in the figure) is a generic danger signal",
-    "exp": "The flashing yellow circular light (type A in the figure) is a generic danger signal"
+    "exp": "The flashing yellow circular light (type A in the figure) is a generic danger signal",
+    "img": 21010
   },
   {
     "id": 21011,
@@ -26048,7 +26064,8 @@
     "en": "Sign A in the figure indicates that when turning left the road is one-way.",
     "ans": true,
     "hint": "Sign A in the figure indicates that when turning left the road is one-way.",
-    "exp": "Sign A in the figure indicates that when turning left the road is one-way."
+    "exp": "Sign A in the figure indicates that when turning left the road is one-way.",
+    "img": 21293
   },
   {
     "id": 21294,
@@ -26083,7 +26100,8 @@
     "en": "Sign A in the figure indicates that it is mandatory to turn left",
     "ans": false,
     "hint": "Sign A in the figure indicates that it is mandatory to turn left",
-    "exp": "Sign A in the figure indicates that it is mandatory to turn left"
+    "exp": "Sign A in the figure indicates that it is mandatory to turn left",
+    "img": 21297
   },
   {
     "id": 21298,
@@ -31113,7 +31131,8 @@
     "en": "The barrier shown indicates an area occupied by a road construction site",
     "ans": true,
     "hint": "The barrier shown indicates an area occupied by a road construction site",
-    "exp": "The barrier shown indicates an area occupied by a road construction site"
+    "exp": "The barrier shown indicates an area occupied by a road construction site",
+    "img": 21856
   },
   {
     "id": 21857,
@@ -31121,7 +31140,8 @@
     "en": "The barrier pictured delimits an area where roadworks are being carried out",
     "ans": true,
     "hint": "The barrier pictured delimits an area where roadworks are being carried out",
-    "exp": "The barrier pictured delimits an area where roadworks are being carried out"
+    "exp": "The barrier pictured delimits an area where roadworks are being carried out",
+    "img": 21857
   },
   {
     "id": 21858,
@@ -31129,7 +31149,8 @@
     "en": "The barrier pictured is placed at the edge of a road construction site",
     "ans": true,
     "hint": "The barrier pictured is placed at the edge of a road construction site",
-    "exp": "The barrier pictured is placed at the edge of a road construction site"
+    "exp": "The barrier pictured is placed at the edge of a road construction site",
+    "img": 21858
   },
   {
     "id": 21859,
@@ -31161,7 +31182,8 @@
     "en": "The barrier shown indicates a parking area reserved for roadworks vehicles",
     "ans": false,
     "hint": "The barrier shown indicates a parking area reserved for roadworks vehicles",
-    "exp": "The barrier shown indicates a parking area reserved for roadworks vehicles"
+    "exp": "The barrier shown indicates a parking area reserved for roadworks vehicles",
+    "img": 21862
   },
   {
     "id": 21863,
@@ -31177,7 +31199,8 @@
     "en": "The barrier pictured indicates a dangerous curve",
     "ans": false,
     "hint": "The barrier pictured indicates a dangerous curve",
-    "exp": "The barrier pictured indicates a dangerous curve"
+    "exp": "The barrier pictured indicates a dangerous curve",
+    "img": 21864
   },
   {
     "id": 21865,
@@ -41809,7 +41832,8 @@
     "en": "At the intersection shown in the figure, vehicle C is the last to pass.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle C is the last to pass.",
-    "exp": "At the intersection shown in the figure, vehicle C is the last to pass."
+    "exp": "At the intersection shown in the figure, vehicle C is the last to pass.",
+    "img": 23175
   },
   {
     "id": 23176,
@@ -41817,7 +41841,8 @@
     "en": "At the intersection shown in the figure, vehicle N passes after vehicle S and before vehicle C",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle N passes after vehicle S and before vehicle C",
-    "exp": "At the intersection shown in the figure, vehicle N passes after vehicle S and before vehicle C"
+    "exp": "At the intersection shown in the figure, vehicle N passes after vehicle S and before vehicle C",
+    "img": 23176
   },
   {
     "id": 23177,
@@ -41825,7 +41850,8 @@
     "en": "At the intersection shown in the figure, vehicles pass in the following order: C, N, S",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicles pass in the following order: C, N, S",
-    "exp": "At the intersection shown in the figure, vehicles pass in the following order: C, N, S"
+    "exp": "At the intersection shown in the figure, vehicles pass in the following order: C, N, S",
+    "img": 23177
   },
   {
     "id": 23178,
@@ -41833,7 +41859,8 @@
     "en": "At the intersection shown in the figure, vehicle N passes after vehicle C and after the vehicle S",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle N passes after vehicle C and after the vehicle S",
-    "exp": "At the intersection shown in the figure, vehicle N passes after vehicle C and after the vehicle S"
+    "exp": "At the intersection shown in the figure, vehicle N passes after vehicle C and after the vehicle S",
+    "img": 23178
   },
   {
     "id": 23179,
@@ -41841,7 +41868,8 @@
     "en": "At the intersection shown in the figure, vehicle C passes first",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle C passes first",
-    "exp": "At the intersection shown in the figure, vehicle C passes first"
+    "exp": "At the intersection shown in the figure, vehicle C passes first",
+    "img": 23179
   },
   {
     "id": 23180,
@@ -41849,7 +41877,8 @@
     "en": "At the intersection shown in the figure, vehicle T passes first",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle T passes first",
-    "exp": "At the intersection shown in the figure, vehicle T passes first"
+    "exp": "At the intersection shown in the figure, vehicle T passes first",
+    "img": 23180
   },
   {
     "id": 23181,
@@ -42774,7 +42803,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle N he finishes crossing the intersection last",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle N he finishes crossing the intersection last",
-    "exp": "At the intersection shown in the figure, the driver of vehicle N he finishes crossing the intersection last"
+    "exp": "At the intersection shown in the figure, the driver of vehicle N he finishes crossing the intersection last",
+    "img": 23283
   },
   {
     "id": 23284,
@@ -42782,7 +42812,8 @@
     "en": "At the intersection shown in the figure, vehicle N must give way to vehicle A.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle N must give way to vehicle A.",
-    "exp": "At the intersection shown in the figure, vehicle N must give way to vehicle A."
+    "exp": "At the intersection shown in the figure, vehicle N must give way to vehicle A.",
+    "img": 23284
   },
   {
     "id": 23285,
@@ -42790,7 +42821,8 @@
     "en": "At the intersection shown in the figure, vehicle N has priority over vehicle R.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle N has priority over vehicle R.",
-    "exp": "At the intersection shown in the figure, vehicle N has priority over vehicle R."
+    "exp": "At the intersection shown in the figure, vehicle N has priority over vehicle R.",
+    "img": 23285
   },
   {
     "id": 23286,
@@ -42798,7 +42830,8 @@
     "en": "At the intersection shown in the figure, vehicle N can complete the left turn maneuver after vehicles R and A have passed.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle N can complete the left turn maneuver after vehicles R and A have passed.",
-    "exp": "At the intersection shown in the figure, vehicle N can complete the left turn maneuver after vehicles R and A have passed."
+    "exp": "At the intersection shown in the figure, vehicle N can complete the left turn maneuver after vehicles R and A have passed.",
+    "img": 23286
   },
   {
     "id": 23287,
@@ -42806,7 +42839,8 @@
     "en": "At the intersection shown in the figure, vehicle N, after having moved to the center of the intersection, must wait for vehicles R and A to pass.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle N, after having moved to the center of the intersection, must wait for vehicles R and A to pass.",
-    "exp": "At the intersection shown in the figure, vehicle N, after having moved to the center of the intersection, must wait for vehicles R and A to pass."
+    "exp": "At the intersection shown in the figure, vehicle N, after having moved to the center of the intersection, must wait for vehicles R and A to pass.",
+    "img": 23287
   },
   {
     "id": 23288,
@@ -42814,7 +42848,8 @@
     "en": "At the intersection shown in the figure, vehicle N crosses first.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle N crosses first.",
-    "exp": "At the intersection shown in the figure, vehicle N crosses first."
+    "exp": "At the intersection shown in the figure, vehicle N crosses first.",
+    "img": 23288
   },
   {
     "id": 23289,
@@ -42822,7 +42857,8 @@
     "en": "At the intersection shown in the figure, vehicle N must give way to vehicle R.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle N must give way to vehicle R.",
-    "exp": "At the intersection shown in the figure, vehicle N must give way to vehicle R."
+    "exp": "At the intersection shown in the figure, vehicle N must give way to vehicle R.",
+    "img": 23289
   },
   {
     "id": 23290,
@@ -42830,7 +42866,8 @@
     "en": "At the intersection shown in the figure, vehicle N has priority over vehicle A.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle N has priority over vehicle A.",
-    "exp": "At the intersection shown in the figure, vehicle N has priority over vehicle A."
+    "exp": "At the intersection shown in the figure, vehicle N has priority over vehicle A.",
+    "img": 23290
   },
   {
     "id": 23291,
@@ -42838,7 +42875,8 @@
     "en": "At the intersection shown in the figure, vehicle N passes after vehicle R but before vehicle A passes.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle N passes after vehicle R but before vehicle A passes.",
-    "exp": "At the intersection shown in the figure, vehicle N passes after vehicle R but before vehicle A passes."
+    "exp": "At the intersection shown in the figure, vehicle N passes after vehicle R but before vehicle A passes.",
+    "img": 23291
   },
   {
     "id": 23292,
@@ -42846,7 +42884,8 @@
     "en": "At the intersection shown in the figure, vehicle N enters the intersection last.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle N enters the intersection last.",
-    "exp": "At the intersection shown in the figure, vehicle N enters the intersection last."
+    "exp": "At the intersection shown in the figure, vehicle N enters the intersection last.",
+    "img": 23292
   },
   {
     "id": 23293,
@@ -42854,7 +42893,8 @@
     "en": "At the intersection shown in the figure, vehicle A must give way to the tram and vehicle B.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle A must give way to the tram and vehicle B.",
-    "exp": "At the intersection shown in the figure, vehicle A must give way to the tram and vehicle B."
+    "exp": "At the intersection shown in the figure, vehicle A must give way to the tram and vehicle B.",
+    "img": 23293
   },
   {
     "id": 23294,
@@ -42862,7 +42902,8 @@
     "en": "At the intersection shown in the figure, vehicle A has priority over vehicle C.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle A has priority over vehicle C.",
-    "exp": "At the intersection shown in the figure, vehicle A has priority over vehicle C."
+    "exp": "At the intersection shown in the figure, vehicle A has priority over vehicle C.",
+    "img": 23294
   },
   {
     "id": 23295,
@@ -42870,7 +42911,8 @@
     "en": "At the intersection shown in the figure, vehicles pass in the following order: T and B, A, C",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicles pass in the following order: T and B, A, C",
-    "exp": "At the intersection shown in the figure, vehicles pass in the following order: T and B, A, C"
+    "exp": "At the intersection shown in the figure, vehicles pass in the following order: T and B, A, C",
+    "img": 23295
   },
   {
     "id": 23296,
@@ -42878,7 +42920,8 @@
     "en": "At the intersection shown in the figure, vehicles T and B can pass simultaneously.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicles T and B can pass simultaneously.",
-    "exp": "At the intersection shown in the figure, vehicles T and B can pass simultaneously."
+    "exp": "At the intersection shown in the figure, vehicles T and B can pass simultaneously.",
+    "img": 23296
   },
   {
     "id": 23297,
@@ -42886,7 +42929,8 @@
     "en": "At the intersection shown in the figure, vehicle C is the last to pass.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle C is the last to pass.",
-    "exp": "At the intersection shown in the figure, vehicle C is the last to pass."
+    "exp": "At the intersection shown in the figure, vehicle C is the last to pass.",
+    "img": 23297
   },
   {
     "id": 23298,
@@ -42894,7 +42938,8 @@
     "en": "At the intersection shown in the figure, vehicles T and C are passing at the same time.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicles T and C are passing at the same time.",
-    "exp": "At the intersection shown in the figure, vehicles T and C are passing at the same time."
+    "exp": "At the intersection shown in the figure, vehicles T and C are passing at the same time.",
+    "img": 23298
   },
   {
     "id": 23299,
@@ -42902,7 +42947,8 @@
     "en": "At the intersection shown in the figure, vehicles pass in the following order: T, B, C, A",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicles pass in the following order: T, B, C, A",
-    "exp": "At the intersection shown in the figure, vehicles pass in the following order: T, B, C, A"
+    "exp": "At the intersection shown in the figure, vehicles pass in the following order: T, B, C, A",
+    "img": 23299
   },
   {
     "id": 23300,
@@ -42910,7 +42956,8 @@
     "en": "At the intersection shown in the figure, vehicle A is the last to pass",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle A is the last to pass",
-    "exp": "At the intersection shown in the figure, vehicle A is the last to pass"
+    "exp": "At the intersection shown in the figure, vehicle A is the last to pass",
+    "img": 23300
   },
   {
     "id": 23301,
@@ -42918,7 +42965,8 @@
     "en": "At the intersection shown in the figure, vehicles T, B, C are passing simultaneously.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicles T, B, C are passing simultaneously.",
-    "exp": "At the intersection shown in the figure, vehicles T, B, C are passing simultaneously."
+    "exp": "At the intersection shown in the figure, vehicles T, B, C are passing simultaneously.",
+    "img": 23301
   },
   {
     "id": 23302,
@@ -42926,7 +42974,8 @@
     "en": "At the intersection shown in the figure, vehicle B must give way to vehicle A.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle B must give way to vehicle A.",
-    "exp": "At the intersection shown in the figure, vehicle B must give way to vehicle A."
+    "exp": "At the intersection shown in the figure, vehicle B must give way to vehicle A.",
+    "img": 23302
   },
   {
     "id": 23303,
@@ -42934,7 +42983,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle D goes first.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle D goes first.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle D goes first."
+    "exp": "At the intersection shown in the figure, the driver of vehicle D goes first.",
+    "img": 23303
   },
   {
     "id": 23304,
@@ -42942,7 +42992,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle D is not obliged to give way to any vehicle.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle D is not obliged to give way to any vehicle.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle D is not obliged to give way to any vehicle."
+    "exp": "At the intersection shown in the figure, the driver of vehicle D is not obliged to give way to any vehicle.",
+    "img": 23304
   },
   {
     "id": 23305,
@@ -42950,7 +43001,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle D is not obliged to give way to vehicle A.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle D is not obliged to give way to vehicle A.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle D is not obliged to give way to vehicle A."
+    "exp": "At the intersection shown in the figure, the driver of vehicle D is not obliged to give way to vehicle A.",
+    "img": 23305
   },
   {
     "id": 23306,
@@ -42958,7 +43010,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle D passes third.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle D passes third.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle D passes third."
+    "exp": "At the intersection shown in the figure, the driver of vehicle D passes third.",
+    "img": 23306
   },
   {
     "id": 23307,
@@ -42966,7 +43019,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle D is required to give priority to all vehicles.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle D is required to give priority to all vehicles.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle D is required to give priority to all vehicles."
+    "exp": "At the intersection shown in the figure, the driver of vehicle D is required to give priority to all vehicles.",
+    "img": 23307
   },
   {
     "id": 23308,
@@ -42974,7 +43028,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle D is required to give way to vehicle E, which is continuing straight on.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle D is required to give way to vehicle E, which is continuing straight on.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle D is required to give way to vehicle E, which is continuing straight on."
+    "exp": "At the intersection shown in the figure, the driver of vehicle D is required to give way to vehicle E, which is continuing straight on.",
+    "img": 23308
   },
   {
     "id": 23309,
@@ -42982,7 +43037,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R must give way to vehicle N.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle R must give way to vehicle N.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R must give way to vehicle N."
+    "exp": "At the intersection shown in the figure, the driver of vehicle R must give way to vehicle N.",
+    "img": 23309
   },
   {
     "id": 23310,
@@ -42990,7 +43046,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R has priority over vehicle A.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle R has priority over vehicle A.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R has priority over vehicle A."
+    "exp": "At the intersection shown in the figure, the driver of vehicle R has priority over vehicle A.",
+    "img": 23310
   },
   {
     "id": 23311,
@@ -42998,7 +43055,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R crosses the intersection after vehicle N has stopped in the center of the intersection.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle R crosses the intersection after vehicle N has stopped in the center of the intersection.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R crosses the intersection after vehicle N has stopped in the center of the intersection."
+    "exp": "At the intersection shown in the figure, the driver of vehicle R crosses the intersection after vehicle N has stopped in the center of the intersection.",
+    "img": 23311
   },
   {
     "id": 23312,
@@ -43006,7 +43064,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R passes before vehicle A.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle R passes before vehicle A.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R passes before vehicle A."
+    "exp": "At the intersection shown in the figure, the driver of vehicle R passes before vehicle A.",
+    "img": 23312
   },
   {
     "id": 23313,
@@ -43014,7 +43073,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R he is the first to complete the crossing",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle R he is the first to complete the crossing",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R he is the first to complete the crossing"
+    "exp": "At the intersection shown in the figure, the driver of vehicle R he is the first to complete the crossing",
+    "img": 23313
   },
   {
     "id": 23314,
@@ -43022,7 +43082,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R must give way to vehicle A.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle R must give way to vehicle A.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R must give way to vehicle A."
+    "exp": "At the intersection shown in the figure, the driver of vehicle R must give way to vehicle A.",
+    "img": 23314
   },
   {
     "id": 23315,
@@ -43030,7 +43091,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R passes last.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle R passes last.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R passes last."
+    "exp": "At the intersection shown in the figure, the driver of vehicle R passes last.",
+    "img": 23315
   },
   {
     "id": 23316,
@@ -43038,7 +43100,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R passes after vehicle A.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle R passes after vehicle A.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R passes after vehicle A."
+    "exp": "At the intersection shown in the figure, the driver of vehicle R passes after vehicle A.",
+    "img": 23316
   },
   {
     "id": 23317,
@@ -43046,7 +43109,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle R enters the intersection and stops in the center",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle R enters the intersection and stops in the center",
-    "exp": "At the intersection shown in the figure, the driver of vehicle R enters the intersection and stops in the center"
+    "exp": "At the intersection shown in the figure, the driver of vehicle R enters the intersection and stops in the center",
+    "img": 23317
   },
   {
     "id": 23318,
@@ -43054,7 +43118,8 @@
     "en": "At the intersection shown in the figure, vehicle T passes last.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle T passes last.",
-    "exp": "At the intersection shown in the figure, vehicle T passes last."
+    "exp": "At the intersection shown in the figure, vehicle T passes last.",
+    "img": 23318
   },
   {
     "id": 23319,
@@ -43062,7 +43127,8 @@
     "en": "At the intersection shown in the figure, vehicle R passes first.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle R passes first.",
-    "exp": "At the intersection shown in the figure, vehicle R passes first."
+    "exp": "At the intersection shown in the figure, vehicle R passes first.",
+    "img": 23319
   },
   {
     "id": 23320,
@@ -43070,7 +43136,8 @@
     "en": "At the intersection shown in the figure, vehicle A must wait for vehicle R to pass.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle A must wait for vehicle R to pass.",
-    "exp": "At the intersection shown in the figure, vehicle A must wait for vehicle R to pass."
+    "exp": "At the intersection shown in the figure, vehicle A must wait for vehicle R to pass.",
+    "img": 23320
   },
   {
     "id": 23321,
@@ -43078,7 +43145,8 @@
     "en": "At the intersection shown in the figure, vehicle T must wait for vehicles R and A to pass.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle T must wait for vehicles R and A to pass.",
-    "exp": "At the intersection shown in the figure, vehicle T must wait for vehicles R and A to pass."
+    "exp": "At the intersection shown in the figure, vehicle T must wait for vehicles R and A to pass.",
+    "img": 23321
   },
   {
     "id": 23322,
@@ -43086,7 +43154,8 @@
     "en": "At the intersection shown in the figure, vehicles pass in the following order: R, A, T",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicles pass in the following order: R, A, T",
-    "exp": "At the intersection shown in the figure, vehicles pass in the following order: R, A, T"
+    "exp": "At the intersection shown in the figure, vehicles pass in the following order: R, A, T",
+    "img": 23322
   },
   {
     "id": 23323,
@@ -43094,7 +43163,8 @@
     "en": "At the intersection shown in the figure, vehicle T passes before vehicle R.",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle T passes before vehicle R.",
-    "exp": "At the intersection shown in the figure, vehicle T passes before vehicle R."
+    "exp": "At the intersection shown in the figure, vehicle T passes before vehicle R.",
+    "img": 23323
   },
   {
     "id": 23324,
@@ -43102,7 +43172,8 @@
     "en": "At the intersection shown in the figure, vehicles pass in the following order: R, T, A",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicles pass in the following order: R, T, A",
-    "exp": "At the intersection shown in the figure, vehicles pass in the following order: R, T, A"
+    "exp": "At the intersection shown in the figure, vehicles pass in the following order: R, T, A",
+    "img": 23324
   },
   {
     "id": 23325,
@@ -43110,7 +43181,8 @@
     "en": "At the intersection shown in the figure, vehicles pass in the following order: T, A, R",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicles pass in the following order: T, A, R",
-    "exp": "At the intersection shown in the figure, vehicles pass in the following order: T, A, R"
+    "exp": "At the intersection shown in the figure, vehicles pass in the following order: T, A, R",
+    "img": 23325
   },
   {
     "id": 23326,
@@ -43118,7 +43190,8 @@
     "en": "At the intersection shown in the figure, vehicle T passes before the other vehicles",
     "ans": false,
     "hint": "At the intersection shown in the figure, vehicle T passes before the other vehicles",
-    "exp": "At the intersection shown in the figure, vehicle T passes before the other vehicles"
+    "exp": "At the intersection shown in the figure, vehicle T passes before the other vehicles",
+    "img": 23326
   },
   {
     "id": 23327,
@@ -43126,7 +43199,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A passes last.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle A passes last.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A passes last."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A passes last.",
+    "img": 23327
   },
   {
     "id": 23328,
@@ -43134,7 +43208,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A must give way to vehicles E and S.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle A must give way to vehicles E and S.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A must give way to vehicles E and S."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A must give way to vehicles E and S.",
+    "img": 23328
   },
   {
     "id": 23329,
@@ -43142,7 +43217,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A must wait for vehicles D, E and S to pass through, in that order, before entering the intersection.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle A must wait for vehicles D, E and S to pass through, in that order, before entering the intersection.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A must wait for vehicles D, E and S to pass through, in that order, before entering the intersection."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A must wait for vehicles D, E and S to pass through, in that order, before entering the intersection.",
+    "img": 23329
   },
   {
     "id": 23330,
@@ -43150,7 +43226,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A has the right free",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle A has the right free",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A has the right free"
+    "exp": "At the intersection shown in the figure, the driver of vehicle A has the right free",
+    "img": 23330
   },
   {
     "id": 23331,
@@ -43158,7 +43235,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A passes simultaneously with vehicle D.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle A passes simultaneously with vehicle D.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A passes simultaneously with vehicle D."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A passes simultaneously with vehicle D.",
+    "img": 23331
   },
   {
     "id": 23332,
@@ -43166,7 +43244,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A passes after vehicles E and S, but before vehicle D.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle A passes after vehicles E and S, but before vehicle D.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A passes after vehicles E and S, but before vehicle D."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A passes after vehicles E and S, but before vehicle D.",
+    "img": 23332
   },
   {
     "id": 23333,
@@ -43174,7 +43253,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A must give way only to the vehicle continuing straight ahead and not to those turning.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle A must give way only to the vehicle continuing straight ahead and not to those turning.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A must give way only to the vehicle continuing straight ahead and not to those turning."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A must give way only to the vehicle continuing straight ahead and not to those turning.",
+    "img": 23333
   },
   {
     "id": 23334,
@@ -43182,7 +43262,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A must give way to vehicle L.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle A must give way to vehicle L.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A must give way to vehicle L."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A must give way to vehicle L.",
+    "img": 23334
   },
   {
     "id": 23335,
@@ -43190,7 +43271,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A can cross the intersection together with vehicle C, after vehicle L has passed.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle A can cross the intersection together with vehicle C, after vehicle L has passed.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A can cross the intersection together with vehicle C, after vehicle L has passed."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A can cross the intersection together with vehicle C, after vehicle L has passed.",
+    "img": 23335
   },
   {
     "id": 23336,
@@ -43198,7 +43280,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A has priority over vehicle D.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle A has priority over vehicle D.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A has priority over vehicle D."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A has priority over vehicle D.",
+    "img": 23336
   },
   {
     "id": 23337,
@@ -43206,7 +43289,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A must give way to all vehicles.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle A must give way to all vehicles.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A must give way to all vehicles."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A must give way to all vehicles.",
+    "img": 23337
   },
   {
     "id": 23338,
@@ -43214,7 +43298,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle A passes last.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle A passes last.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle A passes last."
+    "exp": "At the intersection shown in the figure, the driver of vehicle A passes last.",
+    "img": 23338
   },
   {
     "id": 23339,
@@ -43222,7 +43307,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle B must give way to vehicle N.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle B must give way to vehicle N.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle B must give way to vehicle N."
+    "exp": "At the intersection shown in the figure, the driver of vehicle B must give way to vehicle N.",
+    "img": 23339
   },
   {
     "id": 23340,
@@ -43230,7 +43316,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle B enters the intersection before vehicle R",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle B enters the intersection before vehicle R",
-    "exp": "At the intersection shown in the figure, the driver of vehicle B enters the intersection before vehicle R"
+    "exp": "At the intersection shown in the figure, the driver of vehicle B enters the intersection before vehicle R",
+    "img": 23340
   },
   {
     "id": 23341,
@@ -43238,7 +43325,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle B can complete the left turn manoeuvre after vehicle N has passed.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle B can complete the left turn manoeuvre after vehicle N has passed.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle B can complete the left turn manoeuvre after vehicle N has passed."
+    "exp": "At the intersection shown in the figure, the driver of vehicle B can complete the left turn manoeuvre after vehicle N has passed.",
+    "img": 23341
   },
   {
     "id": 23342,
@@ -43246,7 +43334,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle B, after having moved to the center of the intersection, must wait for vehicle N to pass.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle B, after having moved to the center of the intersection, must wait for vehicle N to pass.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle B, after having moved to the center of the intersection, must wait for vehicle N to pass."
+    "exp": "At the intersection shown in the figure, the driver of vehicle B, after having moved to the center of the intersection, must wait for vehicle N to pass.",
+    "img": 23342
   },
   {
     "id": 23343,
@@ -43254,7 +43343,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle B has the right free during the entire turning manoeuvre.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle B has the right free during the entire turning manoeuvre.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle B has the right free during the entire turning manoeuvre."
+    "exp": "At the intersection shown in the figure, the driver of vehicle B has the right free during the entire turning manoeuvre.",
+    "img": 23343
   },
   {
     "id": 23344,
@@ -43262,7 +43352,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle B must enter the intersection last because he is turning left.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle B must enter the intersection last because he is turning left.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle B must enter the intersection last because he is turning left."
+    "exp": "At the intersection shown in the figure, the driver of vehicle B must enter the intersection last because he is turning left.",
+    "img": 23344
   },
   {
     "id": 23345,
@@ -43270,7 +43361,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle B must give way to vehicle R which is continuing straight on.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle B must give way to vehicle R which is continuing straight on.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle B must give way to vehicle R which is continuing straight on."
+    "exp": "At the intersection shown in the figure, the driver of vehicle B must give way to vehicle R which is continuing straight on.",
+    "img": 23345
   },
   {
     "id": 23346,
@@ -43278,7 +43370,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle P must give way to vehicles T and G.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle P must give way to vehicles T and G.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle P must give way to vehicles T and G."
+    "exp": "At the intersection shown in the figure, the driver of vehicle P must give way to vehicles T and G.",
+    "img": 23346
   },
   {
     "id": 23347,
@@ -43286,7 +43379,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle P has priority over vehicle B.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle P has priority over vehicle B.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle P has priority over vehicle B."
+    "exp": "At the intersection shown in the figure, the driver of vehicle P has priority over vehicle B.",
+    "img": 23347
   },
   {
     "id": 23348,
@@ -43294,7 +43388,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle P passes after the tram and vehicle G, but before vehicle B.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle P passes after the tram and vehicle G, but before vehicle B.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle P passes after the tram and vehicle G, but before vehicle B."
+    "exp": "At the intersection shown in the figure, the driver of vehicle P passes after the tram and vehicle G, but before vehicle B.",
+    "img": 23348
   },
   {
     "id": 23349,
@@ -43302,7 +43397,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle P passes at the same time as vehicle B, but after the tram.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle P passes at the same time as vehicle B, but after the tram.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle P passes at the same time as vehicle B, but after the tram."
+    "exp": "At the intersection shown in the figure, the driver of vehicle P passes at the same time as vehicle B, but after the tram.",
+    "img": 23349
   },
   {
     "id": 23350,
@@ -43310,7 +43406,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle P has priority over all vehicles.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle P has priority over all vehicles.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle P has priority over all vehicles."
+    "exp": "At the intersection shown in the figure, the driver of vehicle P has priority over all vehicles.",
+    "img": 23350
   },
   {
     "id": 23351,
@@ -43318,7 +43415,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle P must give way only to the vehicle coming from his right.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle P must give way only to the vehicle coming from his right.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle P must give way only to the vehicle coming from his right."
+    "exp": "At the intersection shown in the figure, the driver of vehicle P must give way only to the vehicle coming from his right.",
+    "img": 23351
   },
   {
     "id": 23352,
@@ -43326,7 +43424,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle E must give way to vehicle L.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle E must give way to vehicle L.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle E must give way to vehicle L."
+    "exp": "At the intersection shown in the figure, the driver of vehicle E must give way to vehicle L.",
+    "img": 23352
   },
   {
     "id": 23353,
@@ -43334,7 +43433,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle E must give way to the vehicle coming from his right.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle E must give way to the vehicle coming from his right.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle E must give way to the vehicle coming from his right."
+    "exp": "At the intersection shown in the figure, the driver of vehicle E must give way to the vehicle coming from his right.",
+    "img": 23353
   },
   {
     "id": 23354,
@@ -43342,7 +43442,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle E is not obliged to give priority to the trolleybus.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle E is not obliged to give priority to the trolleybus.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle E is not obliged to give priority to the trolleybus."
+    "exp": "At the intersection shown in the figure, the driver of vehicle E is not obliged to give priority to the trolleybus.",
+    "img": 23354
   },
   {
     "id": 23355,
@@ -43350,7 +43451,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle E passes before truck N, after vehicle L has passed.",
     "ans": true,
     "hint": "At the intersection shown in the figure, the driver of vehicle E passes before truck N, after vehicle L has passed.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle E passes before truck N, after vehicle L has passed."
+    "exp": "At the intersection shown in the figure, the driver of vehicle E passes before truck N, after vehicle L has passed.",
+    "img": 23355
   },
   {
     "id": 23356,
@@ -43358,7 +43460,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle E passes after the trolleybus but before vehicle N.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle E passes after the trolleybus but before vehicle N.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle E passes after the trolleybus but before vehicle N."
+    "exp": "At the intersection shown in the figure, the driver of vehicle E passes after the trolleybus but before vehicle N.",
+    "img": 23356
   },
   {
     "id": 23357,
@@ -43366,7 +43469,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle E must give way to the truck because it is continuing straight on.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle E must give way to the truck because it is continuing straight on.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle E must give way to the truck because it is continuing straight on."
+    "exp": "At the intersection shown in the figure, the driver of vehicle E must give way to the truck because it is continuing straight on.",
+    "img": 23357
   },
   {
     "id": 23358,
@@ -43374,7 +43478,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle E has priority over vehicles coming from the right and from the left.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle E has priority over vehicles coming from the right and from the left.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle E has priority over vehicles coming from the right and from the left."
+    "exp": "At the intersection shown in the figure, the driver of vehicle E has priority over vehicles coming from the right and from the left.",
+    "img": 23358
   },
   {
     "id": 23359,
@@ -43382,7 +43487,8 @@
     "en": "At the intersection shown in the figure, the driver of vehicle E goes first.",
     "ans": false,
     "hint": "At the intersection shown in the figure, the driver of vehicle E goes first.",
-    "exp": "At the intersection shown in the figure, the driver of vehicle E goes first."
+    "exp": "At the intersection shown in the figure, the driver of vehicle E goes first.",
+    "img": 23359
   },
   {
     "id": 23360,
@@ -43390,7 +43496,8 @@
     "en": "At the intersection shown in the figure, vehicle B must give way to vehicle S.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicle B must give way to vehicle S.",
-    "exp": "At the intersection shown in the figure, vehicle B must give way to vehicle S."
+    "exp": "At the intersection shown in the figure, vehicle B must give way to vehicle S.",
+    "img": 23360
   },
   {
     "id": 23361,
@@ -43398,7 +43505,8 @@
     "en": "At the intersection in the figure the order of transit of the vehicles is: S, B, L, D",
     "ans": true,
     "hint": "At the intersection in the figure the order of transit of the vehicles is: S, B, L, D",
-    "exp": "At the intersection in the figure the order of transit of the vehicles is: S, B, L, D"
+    "exp": "At the intersection in the figure the order of transit of the vehicles is: S, B, L, D",
+    "img": 23361
   },
   {
     "id": 23362,
@@ -43406,7 +43514,8 @@
     "en": "At the intersection in the figure the order of transit of the vehicles is: S, B, D and L at the same time",
     "ans": false,
     "hint": "At the intersection in the figure the order of transit of the vehicles is: S, B, D and L at the same time",
-    "exp": "At the intersection in the figure the order of transit of the vehicles is: S, B, D and L at the same time"
+    "exp": "At the intersection in the figure the order of transit of the vehicles is: S, B, D and L at the same time",
+    "img": 23362
   },
   {
     "id": 23363,
@@ -43414,7 +43523,8 @@
     "en": "At the intersection in the figure the order of transit of the vehicles is: S and D at the same time, B, L",
     "ans": false,
     "hint": "At the intersection in the figure the order of transit of the vehicles is: S and D at the same time, B, L",
-    "exp": "At the intersection in the figure the order of transit of the vehicles is: S and D at the same time, B, L"
+    "exp": "At the intersection in the figure the order of transit of the vehicles is: S and D at the same time, B, L",
+    "img": 23363
   },
   {
     "id": 23364,
@@ -43422,7 +43532,8 @@
     "en": "At the intersection in the figure, vehicle D passes before vehicle F.",
     "ans": true,
     "hint": "At the intersection in the figure, vehicle D passes before vehicle F.",
-    "exp": "At the intersection in the figure, vehicle D passes before vehicle F."
+    "exp": "At the intersection in the figure, vehicle D passes before vehicle F.",
+    "img": 23364
   },
   {
     "id": 23365,
@@ -43430,7 +43541,8 @@
     "en": "At the intersection in the figure the order of transit of the vehicles is: R, D, F",
     "ans": true,
     "hint": "At the intersection in the figure the order of transit of the vehicles is: R, D, F",
-    "exp": "At the intersection in the figure the order of transit of the vehicles is: R, D, F"
+    "exp": "At the intersection in the figure the order of transit of the vehicles is: R, D, F",
+    "img": 23365
   },
   {
     "id": 23366,
@@ -43438,7 +43550,8 @@
     "en": "At the intersection in the figure the trolleybus passes first because it is tied to the overhead power line",
     "ans": false,
     "hint": "At the intersection in the figure the trolleybus passes first because it is tied to the overhead power line",
-    "exp": "At the intersection in the figure the trolleybus passes first because it is tied to the overhead power line"
+    "exp": "At the intersection in the figure the trolleybus passes first because it is tied to the overhead power line",
+    "img": 23366
   },
   {
     "id": 23367,
@@ -43446,7 +43559,8 @@
     "en": "At the intersection in the figure the order of transit of the vehicles is: F, R, D",
     "ans": false,
     "hint": "At the intersection in the figure the order of transit of the vehicles is: F, R, D",
-    "exp": "At the intersection in the figure the order of transit of the vehicles is: F, R, D"
+    "exp": "At the intersection in the figure the order of transit of the vehicles is: F, R, D",
+    "img": 23367
   },
   {
     "id": 23368,
@@ -43454,7 +43568,8 @@
     "en": "At the intersection in the figure, vehicle T passes last.",
     "ans": true,
     "hint": "At the intersection in the figure, vehicle T passes last.",
-    "exp": "At the intersection in the figure, vehicle T passes last."
+    "exp": "At the intersection in the figure, vehicle T passes last.",
+    "img": 23368
   },
   {
     "id": 23369,
@@ -43462,7 +43577,8 @@
     "en": "At the intersection in the figure the order of precedence of the vehicles is: R, B, D, T",
     "ans": true,
     "hint": "At the intersection in the figure the order of precedence of the vehicles is: R, B, D, T",
-    "exp": "At the intersection in the figure the order of precedence of the vehicles is: R, B, D, T"
+    "exp": "At the intersection in the figure the order of precedence of the vehicles is: R, B, D, T",
+    "img": 23369
   },
   {
     "id": 23370,
@@ -43470,7 +43586,8 @@
     "en": "At the intersection in the figure, vehicle D passes before vehicle B.",
     "ans": false,
     "hint": "At the intersection in the figure, vehicle D passes before vehicle B.",
-    "exp": "At the intersection in the figure, vehicle D passes before vehicle B."
+    "exp": "At the intersection in the figure, vehicle D passes before vehicle B.",
+    "img": 23370
   },
   {
     "id": 23371,
@@ -43478,7 +43595,8 @@
     "en": "At the intersection in the figure the order of transit of the vehicles is: N, A, R",
     "ans": true,
     "hint": "At the intersection in the figure the order of transit of the vehicles is: N, A, R",
-    "exp": "At the intersection in the figure the order of transit of the vehicles is: N, A, R"
+    "exp": "At the intersection in the figure the order of transit of the vehicles is: N, A, R",
+    "img": 23371
   },
   {
     "id": 23372,
@@ -43486,7 +43604,8 @@
     "en": "At the intersection shown in the figure, vehicles A and R must, if necessary, stop.",
     "ans": true,
     "hint": "At the intersection shown in the figure, vehicles A and R must, if necessary, stop.",
-    "exp": "At the intersection shown in the figure, vehicles A and R must, if necessary, stop."
+    "exp": "At the intersection shown in the figure, vehicles A and R must, if necessary, stop.",
+    "img": 23372
   },
   {
     "id": 23373,
@@ -43494,7 +43613,8 @@
     "en": "At the intersection in the figure, vehicle A can pass before vehicle R, but after vehicle N.",
     "ans": true,
     "hint": "At the intersection in the figure, vehicle A can pass before vehicle R, but after vehicle N.",
-    "exp": "At the intersection in the figure, vehicle A can pass before vehicle R, but after vehicle N."
+    "exp": "At the intersection in the figure, vehicle A can pass before vehicle R, but after vehicle N.",
+    "img": 23373
   },
   {
     "id": 23374,
@@ -43502,7 +43622,8 @@
     "en": "At the intersection in the figure the order of transit of the vehicles is: A, N, R",
     "ans": false,
     "hint": "At the intersection in the figure the order of transit of the vehicles is: A, N, R",
-    "exp": "At the intersection in the figure the order of transit of the vehicles is: A, N, R"
+    "exp": "At the intersection in the figure the order of transit of the vehicles is: A, N, R",
+    "img": 23374
   },
   {
     "id": 23375,
@@ -43510,7 +43631,8 @@
     "en": "At the intersection in the figure the order of precedence of the vehicles is: N, R, A",
     "ans": false,
     "hint": "At the intersection in the figure the order of precedence of the vehicles is: N, R, A",
-    "exp": "At the intersection in the figure the order of precedence of the vehicles is: N, R, A"
+    "exp": "At the intersection in the figure the order of precedence of the vehicles is: N, R, A",
+    "img": 23375
   },
   {
     "id": 23376,
@@ -50766,7 +50888,8 @@
     "en": "A red light marked with the symbol in the figure, if lit while driving, indicates that the alternator is not charging the battery.",
     "ans": true,
     "hint": "A red light marked with the symbol in the figure, if lit while driving, indicates that the alternator is not charging the battery.",
-    "exp": "A red light marked with the symbol in the figure, if lit while driving, indicates that the alternator is not charging the battery."
+    "exp": "A red light marked with the symbol in the figure, if lit while driving, indicates that the alternator is not charging the battery.",
+    "img": 24285
   },
   {
     "id": 24286,
@@ -50791,7 +50914,8 @@
     "en": "A red light marked with the symbol in the figure, if lit while driving, indicates that the battery must be replaced immediately.",
     "ans": false,
     "hint": "A red light marked with the symbol in the figure, if lit while driving, indicates that the battery must be replaced immediately.",
-    "exp": "A red light marked with the symbol in the figure, if lit while driving, indicates that the battery must be replaced immediately."
+    "exp": "A red light marked with the symbol in the figure, if lit while driving, indicates that the battery must be replaced immediately.",
+    "img": 24288
   },
   {
     "id": 24289,
@@ -50866,7 +50990,8 @@
     "en": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine lubricating oil temperature is too low.",
     "ans": false,
     "hint": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine lubricating oil temperature is too low.",
-    "exp": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine lubricating oil temperature is too low."
+    "exp": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine lubricating oil temperature is too low.",
+    "img": 24297
   },
   {
     "id": 24298,
@@ -50874,7 +50999,8 @@
     "en": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine is consuming too much oil.",
     "ans": false,
     "hint": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine is consuming too much oil.",
-    "exp": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine is consuming too much oil."
+    "exp": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine is consuming too much oil.",
+    "img": 24298
   },
   {
     "id": 24299,
@@ -50890,7 +51016,8 @@
     "en": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine lubricating oil needs to be changed.",
     "ans": false,
     "hint": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine lubricating oil needs to be changed.",
-    "exp": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine lubricating oil needs to be changed."
+    "exp": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the engine lubricating oil needs to be changed.",
+    "img": 24300
   },
   {
     "id": 24301,
@@ -50940,7 +51067,8 @@
     "en": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the electronic control unit is out of order.",
     "ans": false,
     "hint": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the electronic control unit is out of order.",
-    "exp": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the electronic control unit is out of order."
+    "exp": "A red warning light marked with the symbol in the figure, if lit while driving, indicates that the electronic control unit is out of order.",
+    "img": 24306
   },
   {
     "id": 24307,
@@ -50948,7 +51076,8 @@
     "en": "A red light marked with the symbol in the figure, if lit while driving, indicates that the periodic service required by the manufacturer must be carried out within 500 kilometres.",
     "ans": false,
     "hint": "A red light marked with the symbol in the figure, if lit while driving, indicates that the periodic service required by the manufacturer must be carried out within 500 kilometres.",
-    "exp": "A red light marked with the symbol in the figure, if lit while driving, indicates that the periodic service required by the manufacturer must be carried out within 500 kilometres."
+    "exp": "A red light marked with the symbol in the figure, if lit while driving, indicates that the periodic service required by the manufacturer must be carried out within 500 kilometres.",
+    "img": 24307
   },
   {
     "id": 24308,
